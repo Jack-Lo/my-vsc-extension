@@ -28,5 +28,6 @@
   "publisher": "Jack",
   "scripts": {
     "build": "vsce package"
-  }
+  },
+  "repository": "https://github.com/Jack-Lo/my-vsc-extension"
 }
