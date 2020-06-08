@@ -1,0 +1,11 @@
+{
+  "mp:setData": {
+    "prefix": "setData",
+    "body": [
+      "this.setData({",
+      "\t${1:key}: ${2:value}",
+      "})"
+    ],
+    "description": "my:mp:setData"
+  }
+}

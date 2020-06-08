@@ -1,0 +1,17 @@
+{
+  "req": {
+    "prefix": "req",
+    "body": [
+      "req.${1:class}.${2:method}($3)",
+      ".then((res) => {",
+      "\tif (res.code !== 0) {",
+      "\t\treq.err.show(res.msg);",
+      "\t\treturn;",
+      "\t}",
+      "\t$0",
+      "})",
+      ".catch(req.err.show);"
+    ],
+    "description": "my:req"
+  }
+}

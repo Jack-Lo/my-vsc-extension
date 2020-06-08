@@ -1,0 +1,32 @@
+{
+  "name": "my-vsc-extension",
+  "displayName": "my-vsc-extension",
+  "description": "我的常用代码片段",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/req.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/that.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/mp.code-snippets"
+      }
+    ]
+  },
+  "publisher": "Jack",
+  "scripts": {
+    "build": "vsce package"
+  }
+}

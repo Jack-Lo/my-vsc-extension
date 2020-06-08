@@ -1,0 +1,9 @@
+{
+  "that": {
+    "prefix": "that",
+    "body": [
+      "const that = this;"
+    ],
+    "description": "my:that"
+  }
+}
