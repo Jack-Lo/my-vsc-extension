@@ -1,3 +1,3 @@
 # my-vsc-extension
 
-我的常用vscode配置
+我的vscode插件
